@@ -1,7 +1,8 @@
 body {
   background: #ffffff;
   font-size: 100%;
-  font: 10pt Lato;
+  font: 10pt Ariel;
+
 }
 .divmain{
     margin-left: 400px;
@@ -67,6 +68,7 @@ body {
 }
 .icon{
     margin-left: 63px; 
+    
 }
 .text1 {
     font: 10pt Arial;
