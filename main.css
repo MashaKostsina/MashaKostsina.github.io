@@ -1,45 +1,50 @@
 body {
   background: #ffffff;
-  font-size: 80%;
+  font-size: 100%;
   font: 10pt Lato;
+}
+.divmain{
+    margin-left: 400px;
+    width: 1400px;
+    
 }
 .div1{
     float: left;
 	background: #e1d8cf;
-	width: 700px;
+	width: 400px;
     
 }
 .div2{
-    margin-left: 700px;
+    margin-left: 400px;
     background: #FEFBFA;
+    margin-right: 300px;
 }
 .photo{
     border-radius: 500px;
-    margin-top: 200px;
-    margin-left: 112.5px;
-    height: 475px;
-    width: 475px;
+    margin-top: 100px;
+    margin-left: 63px;
+    height: 274px;
+    width: 274px;
 }
 .div3{
     margin-top: 25px;
     background: #373741;
-    width: 1190px;
-    height: 750px;
+    width: 700px;
+    height: 400px;
 }
 .name{
-    font: 35pt Arial;
+    font: 23pt Arial;
     text-align: center;
-    vertical-align: middle;
     color: #e1d8cf;
     font-weight: 700;
     font-style: normal;
     line-height: 23px;
     letter-spacing: 0.059em;
     text-transform: uppercase;
-    padding-top: 300px;
+    padding-top: 100px;
 }
 .role{
-    font:bold 20pt Arial;
+    font:bold 15pt Arial;
     text-align: center;
     vertical-align: middle;
     color: #ffffff;
@@ -49,58 +54,58 @@ body {
 .header1{
     margin-top:auto;
     background:#373741;
-    width: 500px;
-    margin-left: 100px;
-    font: 20pt Arial;
+    width: 255px;
+    margin-left: 63px;
+    font: 13pt Arial;
     font-weight: 700;
     color: #e1d8cf;
     font-style: normal;
     line-height: 23px;
     letter-spacing: 0.059em;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 10px;
 }
 .icon{
-    margin-left: 100px; 
+    margin-left: 63px; 
 }
 .text1 {
-    font: 15pt Arial;
+    font: 10pt Arial;
     letter-spacing: 0.059em;
-    margin-left: 100px;
-    width: 500px;
-    line-height: 30px;
+    margin-left: 63px;
+    width: 290px;
+    line-height: 20px;
 }
 .indent{
-    margin-top: 125px;
+    margin-top: 50px;
 }
 .intro {
-    font:15pt Arial;
+    font:10pt Arial;
     text-align: center;
-    vertical-align: middle;
     color: #ffffff;
     letter-spacing: 0.142em;
     line-height: 13px;
     padding-top: 50px;
     line-height: 30px;
+    padding: 15px;
 }
 .header2{
-    margin-top:70px;
+    margin-top:50px;
     background:#373741;
-    width: 1000px;
-    margin-left: 75px;
-    font: 20pt Arial;
+    width: 615px;
+    margin-left: 30px;
+    font: 13pt Arial;
     font-weight: 700;
     color: #e1d8cf;
     font-style: normal;
     line-height: 23px;
     letter-spacing: 0.059em;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 10px;
 }
 .text2 {
-    font: 15pt Arial;
+    font: 10pt Arial;
     letter-spacing: 0.059em;
-    margin-left: 75px;
-    width: 1000px;
-    line-height: 30px;
+    margin-left: 30px;
+    width: 615px;
+    line-height: 20px;
 }
