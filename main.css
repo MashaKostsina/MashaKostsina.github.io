@@ -5,15 +5,123 @@ body {
 
 }
 .divmain{
+   margin: 0 auto;body {
+  font-family: 'Raleway', sans-serif;
+  padding: 50px 0;
+}
+.container{
+   margin: 0 auto;
+   width: 1100px;
+   border: 5px solid #E8B8A8;
+}
+.div1{
+    float: left;
+	background: #e1d8cf;
+	width: 400px;
+    height: auto;
+}
+.div2{
     margin-left: 400px;
-    width: 1400px;
+    background: #FEFBFA;
+}
+.photo{
+    border-radius: 500px;
+    margin-top: 100px;
+    margin-left: 63px;
+    height: 274px;
+    width: 274px;
+}
+.div3{
+    margin-top: 25px;
+    background: #373741;
+    width: 700px;
+    height: 400px;
+}
+.name{
+    font: 23pt Arial;
+    text-align: center;
+    color: #e1d8cf;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 23px;
+    letter-spacing: 0.059em;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+.role{
+    font:bold 15pt Arial;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    letter-spacing: 0.142em;
+    line-height: 13px;
+}
+.header1{
+    margin-top:auto;
+    background:#373741;
+    width: 255px;
+    margin-left: 63px;
+    font: 13pt Arial;
+    font-weight: 700;
+    color: #e1d8cf;
+    font-style: normal;
+    line-height: 23px;
+    letter-spacing: 0.059em;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.icon{
+    margin-left: 63px; 
+    
+}
+.text1 {
+    font: 10pt Arial;
+    letter-spacing: 0.059em;
+    margin-left: 63px;
+    width: 290px;
+    line-height: 20px;
+}
+
+.intro {
+    font:10pt Arial;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 0.142em;
+    line-height: 13px;
+    padding-top: 50px;
+    line-height: 30px;
+    padding: 15px;
+}
+.header2{
+    margin-top:50px;
+    background:#373741;
+    width: 615px;
+    margin-left: 30px;
+    font: 13pt Arial;
+    font-weight: 700;
+    color: #e1d8cf;
+    font-style: normal;
+    line-height: 23px;
+    letter-spacing: 0.059em;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.text2 {
+    
+    margin-top: 5px;
+    font: 10pt Arial;
+    letter-spacing: 0.059em;
+    margin-left: 30px;
+    width: 615px;
+    line-height: 20px;
+}
     
 }
 .div1{
     float: left;
 	background: #e1d8cf;
 	width: 400px;
-    
+    height: auto;
 }
 .div2{
     margin-left: 400px;
