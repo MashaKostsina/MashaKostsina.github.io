@@ -3,60 +3,78 @@
 body{
     font-family: 'Lato', sans-serif;
     background: lightgrey;
+    color: #373741;
 }
-
 .container {
-    display: flex;
-    position: relative;
+    width: 1000px;
+    min-height: 1000px;
     margin: 0 auto;
-    width: 1240px;
-    min-height: 1754px;
     background: #fff;
 }
-.divleft {
+.header {
     display: flex;
-    position: relative;
-    float: left;
-    width: 35%;
-    background: #e1d8cf;
+    height: 300px;
 }
 .userpic {
     display: flex;
-    position: absolute;
-    left: 20%;
-    top: 5%;
-    width: 60%;
-    height: 20%;
-    background: url(photo_2022-11-16_15-24-04_2.jpg) center center / cover;
-    border-radius: 500px;
-}
-.sidebar {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    top: 30%;
-    height: 70%;
-}
-.divright {
-    display: flex;
     position: relative;
-    width: 65%;
-    float: right;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    background: #e1d8cf;
+}
+.userpic img {
+    border-radius: 200px;
+    width: 60%;
+    height: 80%;
 }
 .title-block {
-    margin-top: 7px;
-    display: flex;
+    margin-top: 10px;
     position: relative;
-    width: 100%;
-    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    height: 100%;
     background: #373741;
 }
-.content {
+.title-block h1 {
+    margin-top: 100px;
+    line-height: 25px;
+    letter-spacing: 0.050em;
+    font-size: 30px;
+    font-weight: bold;
+    color: #e1d8cf;
+    text-transform: uppercase;
+}
+.title-block h2{
+    line-height: 25px;
+    letter-spacing: 0.055em;
+    font-size: 15px;
+    font-weight: italic;
+    color: #fff;
+}
+.title-block h3{
+    text-align: center;
+    font-size:10pt;
+    color: #ffffff;
+    letter-spacing: 0.055em;
+    line-height: 20px;
+}
+.content-wraper {
     display: flex;
-    position: absolute;
-    width: 100%;
-    top: 27%;
-    height: 71%;
+}
+.sidebar {
+    padding: 20px 0;
+    width:  40%;
+    background: #e1d8cf;    
+}
+.content {
+    margin-top: 20px;
+    width: 60%;
+    margin-bottom: 20px;
 }
 .sidebar h3{
     margin-left: 15px;
@@ -77,7 +95,6 @@ body{
     letter-spacing: 0.059em;
     line-height: 35px;
     width: 90%;
-    color: #373741;
 }
 .sidebar li a{
     margin-left: 15px;
@@ -103,42 +120,6 @@ body{
 .icon:hover{
     background: #d4cfc9 ;
     border-radius: 15px;
-}
-.title-block h1 {
-    display: flex;
-    position: absolute;
-    line-height: 25px;
-    letter-spacing: 0.055em;
-    padding-left: 200px;
-    padding-top: 100px;
-    font-size: 30px;
-    font-weight: 700;
-    color: #e1d8cf;
-    text-transform: uppercase;
-}
-.title-block h2{
-    display: flex;
-    position: absolute;
-    margin-left: 45%;
-    margin-top: 25%;
-    line-height: 25px;
-    letter-spacing: 0.055em;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    vertical-align: middle;
-}
-.title-block h3{
-    display: flex;
-    position: absolute;
-    text-align: center;
-    margin-top: 30%;
-    font-size:10pt;
-    color: #ffffff;
-    letter-spacing: 0.055em;
-    padding-top: 50px;
-    line-height: 20px;
-    padding: 15px;
 }
 .content h3 {
     margin-left: 15px;
@@ -166,7 +147,6 @@ body{
 }
 .content h5{
     margin-left: 15px;
-    text-align: start;
     width: 90%;
     font-size: 13pt;
     font-weight: italic;
