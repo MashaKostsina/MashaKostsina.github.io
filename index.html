@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="reset.css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>CV</title>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="userpic">
-                <img src="photo_2022-11-16_15-24-04_2.jpg">
+                <img src="images/photo_2022-11-16_15-24-04_2.jpg">
             </div>
             <div class="title-block">
                 <h1>Мария Костина</h1><br>
@@ -26,7 +27,7 @@
                     <ul>
                         <p>+375 33 642-03-96</p>
                         <p>kostsinamaryia@gmail.com</p>
-                        <a href="https://www.linkedin.com/in/maryia-kostsina/" target="_blank"><img src="linkedin.png"  width="15" height="15" class="icon"></a><a href="https://t.me/d_ar_k_s_id_e" target="_blank"><img src="telegram.png" width="15" height="15" class="icon"></a>
+                        <a href="https://www.linkedin.com/in/maryia-kostsina/" target="_blank"><img src="images/linkedin.png"  width="15" height="15" class="icon"></a><a href="https://t.me/d_ar_k_s_id_e" target="_blank"><img src="images/telegram.png" width="15" height="15" class="icon"></a>
                        <br> 
                     </ul>
                 <h3>языки</h3>
@@ -34,8 +35,9 @@
                         <li><a href="https://www.efset.org/cert/dL48pE" target="_blank">Английский язык - Intermediate</a></li>
                         <p>Белорусский язык - Native</p><br>
                     </ul>
-                <h3>навыки</h3>   
-                    <ul>
+                    <div class="dropdown">
+                        <button class="dropbtn">навыки <i class="fa fa-caret-down"></i></button>
+                          <div class="dropdown-content">
                         <p>Теория тестирования</p>
                         <p>Confluence</p>
                         <p>Trello</p>
@@ -48,11 +50,23 @@
                         <li><a href="#" target="_blank">DevTools</a></li>
                         <li><a href="#" target="_blank">Базовые знания JS</a></li>
                         <li><a href="#" target="_blank">Базовые знания HTML и CSS</a></li>
-                    </ul>
+                          </div>
+                        </div>
+
                 </ul>
             </div>
             <div class="content">
-                <ul><h3>опыт работы</h3>
+                <h3>образование</h3>
+                    <h5>Курс тестирования ПО Вадима Ксендзова 2022</h5>
+                    <h5>Тестировщик с нуля. Курс Артема Русова 2022</h5>
+                    <h5>Минский радиотехнический колледж 2017</h5>
+                    <h3>портфолио</h3>
+                    <h5>С моим портфолио можно ознакомиться на <a href="https://github.com/MashaKostsina"> GitHub</a></h5>
+                    <h3>PDF</h3>
+                    <h4><a href="https://github.com/MashaKostsina"> Печать </a></h4>
+                </div>
+                <div class="work">
+                    <h3>опыт работы</h3>
                     <h4>Trainee QA Engineer</h4>
                     <h5><dl><dt>ITX</dt><dd>08.2022 — н.в.</dd></dl></h5>
                     <p id="documentation">Тестирование web: desktop, mobile:
@@ -86,16 +100,11 @@
                         Внедрение и редактирование инструкций для персонала<br>
                         Работа с Confluence/Trello/Jira.<br>
                     </p>
-                    <h3>образование</h3>
-                    <h5>Курс тестирования ПО Вадима Ксендзова 2022</h5>
-                    <h5>Тестировщик с нуля. Курс Артема Русова 2022</h5>
-                    <h5>Минский радиотехнический колледж 2017</h5>
-                    <h3>портфолио</h3>
-                    <h5>С моим портфолио можно ознакомиться на <a href="https://github.com/MashaKostsina"> GitHub</a></h5>
+                </div>
+                <div class="footer">
                     <h3>PDF</h3>
-                    <h4><a href="https://github.com/MashaKostsina"> Распечатать резюме </a></h4>
-                    </ul>
-            </div>
+                    <h4><a href="https://github.com/MashaKostsina"> Печать </a></h4>
+                </div>
         </div>
     </div>
 </body>
