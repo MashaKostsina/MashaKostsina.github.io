@@ -28,9 +28,9 @@ body{
     background: #fff;
 }
 .userpic img {
-    border-radius: 500px;
-    width: 80%;
-    height: 80%;
+    border-radius: 600px;
+    width: 65%;
+    height: 85%;
 }
 .title-block {
     display: flex;
@@ -41,15 +41,19 @@ body{
     flex-wrap: wrap;
     width: 70%;
     background: #373741;
+    
 }
 .title-block h1 {
-    margin-top: 100px;
+    padding-top: 20px;
     line-height: 25px;
     letter-spacing: 0.050em;
+    line-height: 35px;
     font-size: 30px;
     font-weight: bold;
     color: #e1d8cf;
     text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .title-block h2{
     line-height: 25px;
@@ -57,6 +61,8 @@ body{
     font-size: 15px;
     font-weight: italic;
     color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .title-block h3{
     text-align: center;
@@ -64,6 +70,9 @@ body{
     color: #ffffff;
     letter-spacing: 0.055em;
     line-height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 70%;
 }
 .content-wraper {
     display: flex;
@@ -71,6 +80,7 @@ body{
    
 }
 .sidebar {
+    /* display: flex; */
     flex-wrap: wrap;
     padding: 20px 0;
     width:  40%;
@@ -99,7 +109,7 @@ body{
     text-align: start;
     background:#373741;
     width: 90%;
-    font-size: 13pt;
+    font-size: 15pt;
     font-weight: 700;
     color: #ebe5df;
     line-height: 20px;
@@ -198,7 +208,7 @@ body{
     text-align: start;
     background:inherit;
     width: 100%;
-    font-size: 13pt;
+    font-size: 15pt;
     font-weight: 700;
     color: #ebe5df;
     line-height: 20px;
@@ -230,17 +240,17 @@ body{
     z-index: 1;
 }
 
-.dropdown-content a {
-    margin-right: 15px;
-    font-size: 10pt;
+.dropdown-content li a {
+    /* margin-right: 15px; */
+    font-size: 13pt;
     letter-spacing: 0.059em;
     line-height: 40px;
-    padding: 10px 0;
-    width: 90%;
+    
+    /* width: 100%; */
     color: #373741;
     text-decoration: none;
     transition: background 0.3s ease;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     text-decoration: none;
 }
 
@@ -285,6 +295,21 @@ body{
     .sidebar {width: 100%;}
     .content {width: 100%;}
     .work {width: 100%;}
+}
+@media print {
+    .dropdown-content {
+        display: block;
+        position: absolute;
+    }
+    .work {width: 60%;
+        margin-left: auto;
+    }
+    .title-block h1, .title-block h2, .title-block h3, .work h3, .sidebar h3, .content h3, .dropbtn {
+        color: #373741;
+    }
+    .work h3, .sidebar h3, .content h3, {
+        margin-left: 0px;
+    }
 }
 
 
