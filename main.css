@@ -297,6 +297,9 @@ body{
     .work {width: 100%;}
 }
 @media print {
+    .dropdown {
+        margin-left: 5px;
+    }
     .dropdown-content {
         display: block;
         position: absolute;
@@ -309,6 +312,9 @@ body{
     }
     .work h3, .sidebar h3, .content h3, {
         margin-left: 0px;
+    }
+    .dropdown-content {
+        box-shadow: none;
     }
 }
 
