@@ -43,6 +43,20 @@ body{
     background: #373741;
     
 }
+.language{
+    display: flex;
+    justify-content: center;
+    font-size: 15pt;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.059em;
+    text-transform: uppercase;
+    align-self: flex-end;
+    margin-right: 25px;
+    background:#373741;
+    width: 5%;
+    padding: 5px;
+}
 .title-block h1 {
     padding-top: 20px;
     line-height: 25px;
@@ -73,6 +87,9 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     width: 70%;
+}
+.title-block a {
+    align-content: flex-end;
 }
 .content-wraper {
     display: flex;
@@ -236,22 +253,6 @@ body{
     outline: none;
     padding: -5px;
 }
-
-.language{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    font-size: 15pt;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0.059em;
-    text-transform: uppercase;
-    margin-top: 20px;
-    margin-left: 45%;
-    background:#373741;
-    width: 10%;
-    padding: 5px;
-}
 .language a {
     color: #ebe5df;
     text-decoration: none;
@@ -339,6 +340,7 @@ body{
     .sidebar {width: 100%;}
     .content {width: 100%;}
     .work {width: 100%;}
+    .language {align-self: auto; margin-right: 0px; margin-top: 10px;}
 }
 @media print {
     .dropdown {
@@ -364,7 +366,7 @@ body{
         color: #373741;
     }
     .work h3, .sidebar h3, .content h3 {
-        margin-left: 0px;
+        margin-left: 10px;
         margin-top: 10px;
     }
     .dropdown-content {
