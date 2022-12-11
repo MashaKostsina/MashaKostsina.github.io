@@ -357,6 +357,9 @@ body{
     .sidebar {width: 50%;}
     .content {width: 50%;}
     .work {width: 100%;}
+    .language { 
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width:575px) {
