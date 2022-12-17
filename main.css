@@ -163,7 +163,7 @@ body{
 .icon {
     margin-left: 5px;
     transition: background 0.3s ease;
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 .icon:hover{
@@ -297,7 +297,6 @@ body{
 
 .content a, .work a {
     color: #373741;
-    text-decoration: none;
     transition: background 0.3s ease;
 }
 
@@ -357,6 +356,9 @@ body{
     .sidebar {width: 50%;}
     .content {width: 50%;}
     .work {width: 100%;}
+    .language {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -405,6 +407,9 @@ body{
     }
     .language {
         display: none;
+    }
+    .content a, .work a {
+        text-decoration: none;
     }
 }
 
