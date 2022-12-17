@@ -352,6 +352,11 @@ body{
 @media screen and (max-width:767px) {
     .container {width: 100%;}
     .userpic {width: 40%;}
+    .userpic img {
+        border-radius: 600px;
+        width: 70%;
+        height: 80%;
+    }
     .title-block {width: 60%;}
     .sidebar {width: 50%;}
     .content {width: 50%;}
