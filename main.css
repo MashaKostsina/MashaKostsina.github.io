@@ -373,6 +373,9 @@ body{
     .sidebar {width: 100%;}
     .content {width: 100%;}
     .work {width: 100%;}
+    .work h3 {
+        width: 90%;
+    }
     .language {
         align-self: auto; 
         margin-right: 0px; 
