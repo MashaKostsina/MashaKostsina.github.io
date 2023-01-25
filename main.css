@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    background: lightgrey;
+    background: rgb(219, 219, 219);
     color: #373741;
 }
 
@@ -363,6 +363,9 @@ body{
     .sidebar {width: 50%;}
     .content {width: 50%;}
     .work {width: 100%;}
+    .sidebar h3, .content h3, .dropdown {
+        width: 88%;
+    }
     .language {
         margin-top: 10px;
     }
